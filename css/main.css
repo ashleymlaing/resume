@@ -109,6 +109,7 @@ header
   left: 0;
   margin:0 ;
   padding-top: 25px;
+    z-index: 1;
 }
 header p
 {
@@ -129,71 +130,24 @@ nav a
   font-size: 18pt;
   font-weight: bold;
 }
-.right
-{
-  clear: right;
-  float: right;
-  margin: -40px 0px 0px 0px;
-  padding-left: 50px;
+main{
+    position: absolute;
+    top:35%;
+    right: 0%;
+    left: 0%;
+    z-index: 0;
 }
-.location
-{
-  margin: -10px 0px 0px 0px;
+div{
+    display: flex;
 }
-#top
-{
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-}
-#skills
-{
-  margin-top: 20px;
-  border-bottom: 1px solid black;
-  margin-bottom: 25px;
-  padding: 210px 20px 125px 20px;
-}
-#skills p
-{
-  line-height: 3;
-}
-#education
-{
-  padding: 210px 20px 25px 20px;
-}
-#education h3 a
-{
-  margin-bottom: 40px;
-}
-main
-{
-  display: flex;
-  flex-direction: row;
-}
-#work
-{
-  padding-top: 275px;
-  clear: both;
-  width: 50%;
-  margin: 0px 5px 10px 10px;
-  border-left: 1px solid black;
-  padding-left: 60px;
-}
-h5
-{
-  margin-top: -30px;
-}
-h2
-{
-  text-align: center;
-}
-ul li
-{
-  padding: 10px;
-}
+#skills,{
+    width: 40%;
+ }
+ #education{
+     width: 60 %;
+ }
 footer
 {
-  clear: both;
   border-top: 1px solid black;
   text-align: center;
   background: lightpink;
