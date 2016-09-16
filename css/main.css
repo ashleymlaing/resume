@@ -102,6 +102,7 @@ textarea {
 header
 {
   background: #fde22e;
+    color: lightpink;
     height: 235px;
   text-align: center;
   position: fixed;
@@ -112,13 +113,14 @@ header
   padding-top: 25px;
     z-index: 1;
 }
-header p
-{
-  word-spacing: 10px;
+header a{
+    color: lightpink;
 }
 nav
 {
   display: flex;
+    height: 85px;
+    flex-flow: row wrap;
   justify-content: space-around;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -126,7 +128,7 @@ nav
 nav a
 {
   padding: 25px;
-  color: black;
+  color: lightpink;
   text-decoration: none;
   font-size: 18pt;
   font-weight: bold;
@@ -153,8 +155,15 @@ div{
 .experience{
     width: 50%;
 }
+.job{
+    display: flex;
+}
+.jobtitle,.location{
+    flex-flow: column wrap;
+}
 a{
     color: black;
+    text-decoration: none;
 }
 footer
 {
@@ -163,10 +172,7 @@ footer
   background: yellow;
     padding: 5px 0;
 }
-h3
-{
-  margin-top: 40px;
-}
+
 
 
 
