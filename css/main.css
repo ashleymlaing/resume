@@ -120,6 +120,9 @@ header
 header a{
     color: black;
 }
+header span{
+    font-weight: bold;
+}
 nav
 {
   display: flex;
@@ -163,10 +166,13 @@ div{
     width: 50%;
 }
 .job{
-    display: flex;
+
 }
-.jobtitle,.location{
-    flex-flow: column wrap;
+.jobtitle{
+    flex-flow: row wrap;
+}
+.location{
+    font-size: 12pt;
 }
 a{
     color: black;
