@@ -99,10 +99,14 @@ textarea {
      -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
      box-sizing: border-box; /* IE */
     }
+   h1{
+       font-family: 'Pacifico', cursive;
+
+   }
 header
 {
   background: #fde22e;
-    color: lightpink;
+    color: black;
     height: 235px;
   text-align: center;
   position: fixed;
@@ -114,21 +118,24 @@ header
     z-index: 1;
 }
 header a{
-    color: lightpink;
+    color: black;
 }
 nav
 {
   display: flex;
+    background: rgba(0,0,0, 0.4);
     height: 85px;
     flex-flow: row wrap;
   justify-content: space-around;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+    font-family: 'Pacifico', cursive;
+
 }
 nav a
 {
   padding: 25px;
-  color: lightpink;
+  color: rebeccapurple;
   text-decoration: none;
   font-size: 18pt;
   font-weight: bold;
