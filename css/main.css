@@ -100,7 +100,7 @@ textarea {
      box-sizing: border-box; /* IE */
     }
    h1{
-       font-family: 'Pacifico', cursive;
+       /*font-family: 'Pacifico', cursive;*/
 
    }
 header
@@ -132,7 +132,7 @@ nav
   justify-content: space-around;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-    font-family: 'Pacifico', cursive;
+   /* font-family: 'Pacifico', cursive;*/
 
 }
 nav a
@@ -144,13 +144,13 @@ nav a
   font-weight: bold;
 }
 main{
-    margin-top:235px ;
+    margin:235px auto 0;
     padding: 20px 0;
     display: flex;
     z-index: 0;
+    max-width: 1200px;
 }
 div{
-    border: 1px solid pink;
     display: flex;
     flex-flow: row wrap;
     align-content: flex-start;
@@ -158,21 +158,39 @@ div{
 }
 .skills-edu{
     width: 20%;
+    min-width: 250px;
+    padding: 0 8px;
+    border-right: 1px solid black;
 }
 .project{
     width: 30%;
+    min-width: 400px;
+    padding: 0 15px;
 }
 .experience{
     width: 50%;
+    min-width: 350px;
+    padding: 0 25px;
+    border-right: 1px solid black;
 }
 .job{
 
 }
 .jobtitle{
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    line-height: 0%;
+    width: 100%;
 }
 .location{
-    font-size: 12pt;
+    flex-flow: column wrap;
+    width: 100%;
+}
+.location p{
+    font-size: 11pt;
+    line-height: 0%;
+}
+h3.singlejob{
+    line-height: 90%;
 }
 a{
     color: black;
